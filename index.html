@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StarWars</title>
-
+    <title>Buscar en Star Wars</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Star Warzzz</h1>
-    
-    <form action=""> 
-        <label for="nombre">Nombre del Personaje:</label>
-        <input type="text" id="nombre" name="nombre">
-        <button id="buscar">Buscar</button>
-    </form>
 
-    <h2>Información del Personaje</h2>
+    <div class="container">
+        <h1>Star Warzzz</h1> <form action=""> 
+            <label for="nombre" class="sr-only">Nombre del Personaje:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej: Luke Skywalker">
+            <button id="buscar">Buscar</button>
+        </form>
     
-    <h3>Altura:</h3>
-    <p id="altura"></p>
-    
-    <h3>Masa (Peso):</h3>
-    <p id="masa"></p>
-    
-    <h3>Películas donde aparece:</h3>
-    <ul id="peliculas"></ul>
+        <h2>Información del Personaje</h2>
+        
+        <h3>Altura:</h3>
+        <p id="altura"></p>
+        
+        <h3>Masa (Peso):</h3>
+        <p id="masa"></p>
+        
+        <h3>Películas donde aparece:</h3>
+        <ul id="peliculas"></ul>
+    </div>
 
     <script src="app.js"></script>
 </body>
