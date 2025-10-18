@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #1a1a1a; 
+    color: #e0e0e0;           
+    line-height: 1.6;
+    margin: 0;
+    padding: 30px 20px; 
+    background-image: linear-gradient(170deg, rgba(40, 40, 45, 0.8) 0%, rgba(20, 20, 25, 0.8) 100%);
+    background-attachment: fixed; 
+    min-height: 100vh;
+}
