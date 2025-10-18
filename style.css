@@ -97,3 +97,14 @@ form {
     margin-top: 0;
     padding-left: 10px;
 }
+#peliculas {
+    list-style-type: none;
+    padding-left: 0;
+}
+#peliculas li {
+    background-color: rgba(0, 0, 0, 0.25); 
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 10px; 
+}
