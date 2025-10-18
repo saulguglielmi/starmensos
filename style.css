@@ -9,3 +9,14 @@ body {
     background-attachment: fixed; 
     min-height: 100vh;
 }
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(35, 35, 40, 0.4); 
+    backdrop-filter: blur(20px);         
+    -webkit-backdrop-filter: blur(20px); 
+    border-radius: 25px;                 
+    border: 1px solid rgba(255, 255, 255, 0.15); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35); 
+    padding: 30px;
+}
