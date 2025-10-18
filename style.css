@@ -20,7 +20,6 @@ body {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35); 
     padding: 30px;
 }
-
 h1 {
     color: #ffe81f; 
     text-align: center;
@@ -39,7 +38,6 @@ h2 {
     padding-bottom: 10px;
     margin-top: 30px;
 }
-
 
 h3 {
     color: #ccc;
@@ -91,4 +89,11 @@ form {
     border-radius: 8px 20px 8px 20px; 
     box-shadow: 0 0 10px 2px rgba(255, 232, 31, 0.4);
     transition-duration: 0.1s;
+}
+#altura, #masa {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0;
+    padding-left: 10px;
 }
